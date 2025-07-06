@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             All Transactions
           </Link>
            <Link href="/budget" className="text-blue-600 font-medium hover:underline">
-            All Budgets
+            Budget Insight
           </Link>
         </nav>
 

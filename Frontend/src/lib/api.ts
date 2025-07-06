@@ -1,7 +1,7 @@
 import { Transaction } from "@/types/transaction";
 import { DashboardSummary } from "@/types/summary";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://personal-finance-backend-production-c0a6.up.railway.app/api";
 
 const api = {
   // ✅ Add a transaction with better error handling

@@ -4,4 +4,6 @@ const { getMonthlyExpenses } = require("../controllers/analyticsController");
 
 router.get("/monthly", getMonthlyExpenses);
 
+
+
 module.exports = router;

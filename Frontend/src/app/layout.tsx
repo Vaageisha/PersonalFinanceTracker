@@ -22,6 +22,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Link href="/transactions" className="text-blue-600 font-medium hover:underline">
             All Transactions
           </Link>
+           <Link href="/budget" className="text-blue-600 font-medium hover:underline">
+            All Budgets
+          </Link>
         </nav>
 
         {/* Page Content */}
